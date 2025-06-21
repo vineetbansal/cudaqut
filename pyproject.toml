@@ -19,9 +19,10 @@ dependencies = [
     "scikit-learn",
     "tensorflow",
     "networkx",
-    "gurobipy",
+    "gurobipy<12",
     "psutil",
-    "qiskit-aer"
+    "qiskit-aer",
+    "cudaq"
 ]
 
 [project.optional-dependencies]
